@@ -40,11 +40,12 @@ class MapsMarkerActivity : AppCompatActivity(), OnMapReadyCallback {
     // [START maps_marker_get_map_async]
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        // Retrieve the content view that renders the map.
-        setContentView(R.layout.activity_maps)
-
+        
         // Change this to Latest vs Legacy and see the difference
         MapsInitializer.initialize(this, MapsInitializer.Renderer.LATEST) { renderer -> Log.d("gmap", "rendererSelected:${renderer.name}") }
+        
+        // Retrieve the content view that renders the map.
+        setContentView(R.layout.activity_maps)
 
         // Get the SupportMapFragment and request notification when the map is ready to be used.
         mapFragment = supportFragmentManager.findFragmentById(R.id.map) as? SupportMapFragment
