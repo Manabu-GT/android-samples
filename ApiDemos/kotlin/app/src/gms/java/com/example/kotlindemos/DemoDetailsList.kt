@@ -133,6 +133,11 @@ class DemoDetailsList {
                 PolygonDemoActivity::class.java
             ),
             DemoDetails(
+                R.string.polygon_circle_demo_label,
+                R.string.polygon_circle_demo_details,
+                PolygonCircleHoleDemoActivity::class.java
+            ),
+            DemoDetails(
                 R.string.polyline_demo_label,
                 R.string.polyline_demo_description,
                 PolylineDemoActivity::class.java

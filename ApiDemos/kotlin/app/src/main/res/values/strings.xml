@@ -158,6 +158,8 @@
     <string name="polygon_demo_description">Demonstrates how to add Polygons to a map.</string>
     <string name="polygon_demo_details">Demonstrates how to add Polygons to a map</string>
     <string name="polygon_demo_label">Polygons</string>
+    <string name="polygon_circle_demo_details">Demonstrates a behavior difference between the latest and legacy renderer</string>
+    <string name="polygon_circle_demo_label">Polygon with a circle shaped hole</string>
     <string name="properties_australia_polygon">Properties for Polygon over Australia</string>
     <string name="stroke_alpha">Stroke Alpha</string>
     <string name="stroke_hue">Stroke Hue</string>
